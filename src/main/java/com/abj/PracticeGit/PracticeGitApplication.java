@@ -16,7 +16,7 @@ public class PracticeGitApplication {
 	
 	@GetMapping("/")
 	public String test() {
-		
+		System.out.println("test controller");
 		return "Application testing succsessfully";
 	}
 
